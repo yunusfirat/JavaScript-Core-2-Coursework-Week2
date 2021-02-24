@@ -4,7 +4,8 @@ function shoppingList(arrayOfPeople) {
   arrayOfPeople.forEach(person => {
     let ultag = document.createElement('ul');
     let litag = document.createElement('li');
-    litag.innerHTML = person;
+    let ptag = document.createElement('p');
+    p.innerHTML = person;
     let ullitag = ultag.appendChild(litag);
     content.appendChild(ullitag);
     console.log(person);
